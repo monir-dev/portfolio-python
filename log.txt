@@ -1,2 +1,6 @@
+make Migration: python manage.py makemigrations
+run Migration: python manage.py migrate
+install pillow package: pip install Pillow
+
 run server: python manage.py runserver
-create new section: python manage.py startapp sectionName
+create new section: python manage.py startapp appName
